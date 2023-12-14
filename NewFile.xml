@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Myfirstrun">
+<test name= "my test" >
+<parameter name="name" value="duck"></parameter>
+<!-- <groups>
+<run>
+<include name="system"></include>
+<include name="custom"></include>
+
+</run>
+</groups> -->
+<classes>  
+<!-- <class name="org.demo.Installation"></class>-->
+ <class name="org.demo.SecondInfo"></class>
+</classes>
+</test>
+</suite>
